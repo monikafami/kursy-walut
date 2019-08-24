@@ -1,0 +1,47 @@
+
+.input3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+}
+
+.tabela {
+    border: 2px solid;
+    padding: 2px;
+    margin: auto;
+    border-radius: 1px;
+    background-color: aquamarine;
+    margin-bottom: 10px;   
+}
+   
+
+.containerMain {
+    
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.btn-main{
+  border: 1px solid; 
+    border-radius: 1px;
+    padding: 2px;
+/*    margin: auto;*/
+    min-height: 150px;
+    position: relative;
+ 
+}
+
+.btn-1 {
+    position: absolute;
+    width: 99%;
+    background-color: aquamarine;
+    bottom: 0;
+    
+}
+
+/*
+.select-main {
+    position: absolute;
+}*/
